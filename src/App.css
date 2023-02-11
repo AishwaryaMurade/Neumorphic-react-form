@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #f1f1ed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow-x: hidden;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  padding-bottom: 30px;
+
+}
+
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("https://img.icons8.com/color/100/000000/twitter--v2.png");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.formcontrol {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+  margin-left: 10px;
+  color: #c85d45;
+  font-weight: 600;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: #5e6dce;
+  margin-bottom: 30px;
+}
+input:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+button[type=submit] {
+  color: white;
+  margin-top: 20px;
+  background: #c85d45;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  font-weight: 700;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  box-shadow: none;
+}
+.social button{
+  background-color: #fff;
+  height: 35px;
+ cursor: pointer;
+  padding: 4px 0;
+  width: 40px;
+  border-radius: 10px;
+}
+
+
+.anmationicon
+{
+	background-color: white;
+	overflow: hidden;
+	margin:auto;
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+	background-image:url(./Images/monkey.gif);
+	background-size: 90% 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+  box-shadow: 0 0px 10px #c85d45;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.anmationicon img
+{
+	margin-top:110%;
+	height: 170px;
+	width: 170px;
+	transition: 1s;
+}
+.submit{
+  display: flex;
+  justify-content: flex-end;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.social img{
+  max-width: 100%;
+  max-height: 100%;
+
+}
